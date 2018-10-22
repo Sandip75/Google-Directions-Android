@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements RoutingListener, 
     protected GoogleMap map;
     protected LatLng start;
     protected LatLng end;
+    private GoogleMap map2 ;
     @InjectView(R.id.start)
     AutoCompleteTextView starting;
     @InjectView(R.id.destination)
